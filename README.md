@@ -7,6 +7,7 @@
 - Equity growth projections
 - Interactive Chart.js visualizations
 - NYC home value estimator
+- All made in the color of my University!
 
 ## Technologies
 - HTML
