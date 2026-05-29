@@ -47,7 +47,7 @@
       transition: all .15s;
     }
     .tab-btn:hover { background: #f0f4f8; color: #2d3748; }
-    .tab-btn.active { background: #db413c; color: #fff; }
+    .tab-btn.active { background: #c41230; color: #fff; }
 
     /* ── Card ── */
     .card {
@@ -107,7 +107,7 @@
       outline: none;
     }
     .field input:focus,
-    .field select:focus { border-color: #4299e1; box-shadow: 0 0 0 3px rgba(66,153,225,.15); }
+    .field select:focus { border-color: #c41230; box-shadow: 0 0 0 3px rgba(196,18,48,0.15); }
 
     .field select {
       appearance: none;
@@ -133,19 +133,19 @@
       cursor: pointer;
       transition: border-color .15s;
     }
-    .checkbox-row:hover { border-color: #4299e1; }
-    .checkbox-row input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; accent-color: #3182ce; flex-shrink: 0; }
+    .checkbox-row:hover { border-color: #c41230; }
+    .checkbox-row input[type="checkbox"] { width: 18px; height: 18px; cursor: pointer; accent-color: #c41230; flex-shrink: 0; }
     .checkbox-row span { font-size: 0.9rem; font-weight: 600; color: #4a5568; }
     #est-lawn-wrap { display: none; margin-top: 12px; }
 
-    /* ── Buttons ── */
+    /* ── Buttons WORK ON LATER ── */
     .btn {
       display: block;
       width: 100%;
       max-width: 960px;
       margin: 0 auto 24px;
       padding: 14px;
-      background: #3182ce;
+      background: #c41230;
       color: #fff;
       border: none;
       border-radius: 10px;
@@ -155,14 +155,14 @@
       letter-spacing: 0.5px;
       transition: background .15s;
     }
-    .btn:hover { background: #2b6cb0; }
+    .btn:hover { background: #9b0f27; }
     .btn:disabled { background: #a0aec0; cursor: not-allowed; }
 
     .btn-save { background: #38a169; margin-bottom: 0; }
     .btn-save:hover { background: #2f855a; }
     .btn-save:disabled { background: #a0aec0; cursor: not-allowed; }
 
-    /* ── Reveal animation ── */
+    /* ── cool animation ── */
     @keyframes slideIn {
       from { opacity: 0; transform: translateY(-8px); }
       to   { opacity: 1; transform: translateY(0); }
@@ -180,8 +180,8 @@
     }
 
     .metric-card {
-      background: #ebf8ff;
-      border-left: 4px solid #3182ce;
+      background: #fdf0f2;
+      border-left: 4px solid #c41230;
       border-radius: 8px;
       padding: 14px 16px;
     }
@@ -209,7 +209,7 @@
     .row-table { width: 100%; }
     .row-table td { padding: 5px 0; font-size: 0.9rem; border: none; text-align: left; }
     .row-table td:last-child { text-align: right; font-weight: 600; }
-    .row-table tr.bold td { font-weight: 700; color: #2b6cb0; }
+    .row-table tr.bold td { font-weight: 700; color: #9b0f27; }
 
     .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
     @media (max-width: 600px) { .two-col { grid-template-columns: 1fr; } }
@@ -217,7 +217,7 @@
     #amort-toggle {
       background: none;
       border: 1.5px solid #ce3192;
-      color: #3182ce;
+      color: #c41230;
       border-radius: 8px;
       padding: 8px 16px;
       font-size: 0.85rem;
@@ -225,7 +225,7 @@
       cursor: pointer;
       margin-bottom: 12px;
     }
-    #amort-toggle:hover { background: #ebf8ff; }
+    #amort-toggle:hover { background: #fdf0f2; }
     #amort-table { overflow-x: auto; }
 
     /* ── Comparison Table ── */
@@ -234,8 +234,8 @@
     .sort-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 16px; }
     .sort-bar > span { font-size: 0.8rem; font-weight: 600; color: #718096; }
     .sort-btn { padding: 5px 13px; border: 1.5px solid #cbd5e0; border-radius: 20px; background: #fff; font-size: 0.78rem; font-weight: 600; color: #4a5568; cursor: pointer; transition: all .15s; }
-    .sort-btn:hover { border-color: #3182ce; color: #3182ce; }
-    .sort-btn.active { background: #3182ce; border-color: #3182ce; color: #fff; }
+    .sort-btn:hover { border-color: #c41230; color: #c41230; }
+    .sort-btn.active { background: #c41230; border-color: #c41230; color: #fff; }
     #cmp-wrap { overflow-x: auto; }
     .cmp-table { min-width: 820px; }
     .cmp-table thead th { white-space: nowrap; font-size: 0.78rem; padding: 10px 14px; text-align: right; }
@@ -254,8 +254,8 @@
     .cell-mid  { background: #fffff0; color: #744210; }
     .cell-bad  { background: #fff5f5; color: #9b2c2c; font-weight: 700; }
     .act-btn { padding: 3px 10px; border-radius: 6px; border: 1.5px solid; font-size: 0.75rem; font-weight: 600; cursor: pointer; background: none; margin-left: 4px; }
-    .act-load { border-color: #3182ce; color: #3182ce; }
-    .act-load:hover { background: #ebf8ff; }
+    .act-load { border-color: #c41230; color: #c41230; }
+    .act-load:hover { background: #fdf0f2; }
     .act-del  { border-color: #e53e3e; color: #e53e3e; }
     .act-del:hover  { background: #fff5f5; }
 
@@ -264,12 +264,12 @@
 
     .est-price-card {
       text-align: center;
-      background: linear-gradient(135deg, #ebf8ff 0%, #e6fffa 100%);
+      background: linear-gradient(135deg, #fdf0f2 0%, #f9e0e4 100%);
       border-radius: 12px;
       padding: 28px 24px;
       margin-bottom: 20px;
     }
-    .est-price-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #2c7a7b; margin-bottom: 6px; }
+    .est-price-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #c41230; margin-bottom: 6px; }
     .est-price-main  { font-size: 2.8rem; font-weight: 800; color: #1a202c; line-height: 1; }
     .est-price-range { font-size: 0.9rem; color: #718096; margin-top: 8px; }
 
@@ -277,7 +277,7 @@
     .factor-card { background: #f7fafc; border-radius: 8px; padding: 12px 14px; border-left: 3px solid #e2e8f0; }
     .factor-card.pos { border-color: #38a169; }
     .factor-card.neg { border-color: #e53e3e; }
-    .factor-card.neu { border-color: #3182ce; }
+    .factor-card.neu { border-color: #c41230; }
     .factor-name  { font-size: 0.72rem; font-weight: 600; color: #718096; text-transform: uppercase; letter-spacing: .5px; }
     .factor-value { font-size: 1.05rem; font-weight: 700; color: #2d3748; margin-top: 3px; }
     .factor-adj   { font-size: 0.8rem; color: #718096; margin-top: 1px; }
@@ -297,7 +297,7 @@
       align-items: center;
       justify-content: center;
       width: 22px; height: 22px;
-      background: #3182ce;
+      background: #c41230;
       color: #fff;
       border-radius: 50%;
       font-size: 0.72rem;
@@ -368,7 +368,7 @@
   </div>
 </div>
 
-<!-- ── PURCHASE & FINANCING ── -->
+<!--  PURCHASE & FINANCING ── -->
 <div class="card">
   <div class="section-title">Purchase &amp; Financing</div>
   <div class="grid">
@@ -381,7 +381,7 @@
   </div>
 </div>
 
-<!-- ── RENTAL INCOME ── -->
+<!-- ── RENTAL INCOME REVISIT ── -->
 <div class="card">
   <div class="section-title">Rental Income</div>
   <div class="grid">
@@ -391,7 +391,7 @@
   </div>
 </div>
 
-<!-- ── MONTHLY EXPENSES ── -->
+<!-- ── MONTHLY E ── -->
 <div class="card">
   <div class="section-title">Monthly Operating Expenses</div>
   <div class="grid">
@@ -449,9 +449,7 @@
 </div><!-- /tab-analyzer -->
 
 
-<!-- ════════════════════════════════════════════════════════════════
-     TAB 2: HOME VALUE ESTIMATOR
-     ════════════════════════════════════════════════════════════════ -->
+<!-- TAB -->
 <div id="tab-estimator" style="display:none">
 
   <!-- Step 1: Borough -->
@@ -470,7 +468,7 @@
     </div>
   </div>
 
-  <!-- Step 2: Neighborhood -->
+  <!-- Neighborhood -->
   <div class="card slide-in" id="est-step2">
     <div class="section-title"><span class="step-number">2</span>Select Neighborhood</div>
     <div class="field">
@@ -481,7 +479,7 @@
     </div>
   </div>
 
-  <!-- Step 3: Property details -->
+  <!-- Property details change every 3 months????-->
   <div class="card slide-in" id="est-step3">
     <div class="section-title"><span class="step-number">3</span>Property Details</div>
     <div class="grid">
@@ -572,7 +570,7 @@
     <div class="est-disclaimer">
       This estimate is based on neighborhood price-per-sqft averages and typical adjustment factors.
       It is not an appraisal. Actual market value depends on condition, views, floor level, building amenities,
-      and current market conditions. Consult a licensed appraiser for an accurate valuation.
+      and current market conditions. Please get a professional appraisal for an accurate valuation before making any financial decisions.
     </div>
   </div>
 
@@ -580,10 +578,9 @@
 
 
 <script>
-/* ══════════════════════════════════════════════════════════════
+/* 
    BOROUGH / NEIGHBORHOOD DATA
-   Price per sq ft estimates based on 2025 NYC market data.
-   ══════════════════════════════════════════════════════════════ */
+   Price per sq ft estimates based on 2025 NYC market data. */
 const BOROUGH_DATA = {
   'Manhattan': {
     avgPsf: 1650,
@@ -667,6 +664,8 @@ const BOROUGH_DATA = {
     }
   }
 };
+/*^all taken from the same database so if one is wrong most likely all are*/
+
 
 /* Amenity base values per borough — multiplied by neighborhood premium ratio
    so a $2,800/sqft Tribeca parking spot is worth ~3x more than Washington Heights */
@@ -678,18 +677,16 @@ const AMENITY_BASE = {
   'Staten Island': { parkingBase: 10000, lawnBase: 35 },
 };
 
-/* ══════════════════════════════════════════════════════════════
-   TAB SWITCHING
-   ══════════════════════════════════════════════════════════════ */
+/* 
+   TAB switch
+    */
 function switchTab(tab) {
   document.getElementById('tab-analyzer').style.display  = tab === 'analyzer'  ? 'block' : 'none';
   document.getElementById('tab-estimator').style.display = tab === 'estimator' ? 'block' : 'none';
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
 }
 
-/* ══════════════════════════════════════════════════════════════
-   HOME VALUE ESTIMATOR
-   ══════════════════════════════════════════════════════════════ */
+/*  HOME VALUE ESTIMATOR */
 function onBoroughChange() {
   const borough = document.getElementById('est-borough').value;
   const step2   = document.getElementById('est-step2');
@@ -962,7 +959,7 @@ function renderCharts(amort, downPayment, loanAmount, monthlyMortgage, totalOpEx
       datasets: [{
         label: 'Monthly ($)',
         data: [effectiveGross, totalOpExp, monthlyMortgage, monthlyCF],
-        backgroundColor: ['#3182ce', '#dd6b20', '#805ad5', cfColor],
+        backgroundColor: ['#6e6e6e', '#dd6b20', '#805ad5', cfColor],
         borderRadius: 6,
       }]
     },
